@@ -1,60 +1,80 @@
-_______________________________________________________________________________________________________________
+# 🚗 Demonstration of an Adversarial Attack on the Camera System of an Autonomous Vehicle (AV)
 
-# Demonstration of An Advarsarial Attack on Camera System of Autonomus Vehicle(AV)
+A showcase of how adversarial attacks can disrupt visual perception in self-driving systems using camera input.
+
+---
 
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>📑 Table of Contents</summary>
   <ol>
-    <li><a href="#About-this-Repository">About The Project</a></li>
-    <li><a href="#Features">Features</a></li>
-    <li><a href="#Requirments">Requirements</a></li>
-    <li><a href="#Important">Important</a></li>
+    <li><a href="#about-this-repository">About This Repository</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#important">Important</a></li>
   </ol>
 </details>
 
-______________________________________________________________________________________________________________
+---
 
-## About this Repository
+## 📘 About This Repository
 
-This repository is About : **Demonstration of An Advarsarial Attack on Camera System of Autonomus Vehicle(AV)**
+This project demonstrates an **adversarial attack on the camera system of an Autonomous Vehicle (AV)**. The repository contains all the necessary setup instructions, code files, and supporting notes to help you replicate the experiment step-by-step—designed to be beginner-friendly.
 
-I have talked about Setup required for this project in simple words and with all neccesary files. 
+---
 
-_______________________________________________________________________________________________________________
+## ✨ Features
 
-## Features
-* **Track**<br/><br/>
-  - ![alt text](https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/track.jpg)<br/><br/>
-* **Car**<br/><br/>
-  - ![alt text](https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/car.jpg)<br/><br/>
-* **Attack**<br/><br/>
-  - ![alt text](https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/attack.jpg)<br/><br/>
+### 🛣️ Track
+<div align="center">
+  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/track.jpg" alt="Track" width="600"/>
+</div>
 
-_______________________________________________________________________________________________________________________________________________
+---
 
-## Requirements
+### 🚘 Car
+<div align="center">
+  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/car.jpg" alt="Car" width="600"/>
+</div>
 
-**Software Requirements**
-* Python 3.11.9 or above 
-* Opencv (latest)
-* paho-mqtt
-* tensorflow
+---
 
-**Hardware Requirments**
-* Raspberrypi 3B(2015 or later)
-* Geared Dc motors 12V (single 2 motors)
-* 12V Power Bank
-* Car Chasis, screws, caster wheel, two wheels for rear fitting
-* L298N motor driver
-* USB Camera(atleast 30fps) or rpi cam
-* USB cables to power RPi and motor driver
-* Jumper Cables  
+### ⚠️ Attack
+<div align="center">
+  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/attack.jpg" alt="Attack" width="600"/>
+</div>
 
-________________________________________________________________________________________________________________________________________________________________
+---
 
-## Important
-**This Repo contains all necessary files**
-* "Requirements.txt" for windows setup
-* "Pi_Requirements.txt" for RPI setup
-* Handwritten notes for details regarding working of MQTT communication and Flask App streaming video feed
-* Details Regarding how to setup enviroments both in RPi and Windows
+## 🧰 Requirements
+
+### 💻 Software
+- Python 3.11.9 or above  
+- OpenCV (latest)  
+- TensorFlow  
+- Paho-MQTT  
+
+### 🔧 Hardware
+- Raspberry Pi 3B (2015 or later)  
+- 12V Geared DC Motors (x2)  
+- 12V Power Bank  
+- Car Chassis (includes screws, caster wheel, and rear wheels)  
+- L298N Motor Driver  
+- USB Camera (at least 30 FPS) or Raspberry Pi Camera  
+- USB Cables (for powering the Pi and motor driver)  
+- Jumper Wires  
+
+---
+
+## 📌 Important
+
+This repository contains **all the essential files and setup guides**, including:
+
+- `requirements.txt` – for setting up on Windows  
+- `pi_requirements.txt` – for Raspberry Pi setup  
+- Handwritten notes explaining:
+  - MQTT communication  
+  - Flask app for real-time video streaming  
+- Detailed environment setup instructions for both Windows and Raspberry Pi  
+
+---
+
