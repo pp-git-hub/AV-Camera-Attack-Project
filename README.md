@@ -26,21 +26,21 @@ This project demonstrates an **adversarial attack on the camera system of an Aut
 
 ### 🛣️ Track
 <div align="center">
-  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/track.jpg" alt="Track" width="600"/>
+  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/track.jpg" alt="Track" width="400"/>
 </div>
 
 ---
 
 ### 🚘 Car
 <div align="center">
-  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/car.jpg" alt="Car" width="600"/>
+  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/car.jpg" alt="Car" width="400"/>
 </div>
 
 ---
 
 ### ⚠️ Attack
 <div align="center">
-  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/attack.jpg" alt="Attack" width="600"/>
+  <img src="https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/attack.jpg" alt="Attack" width="400"/>
 </div>
 
 ---
