@@ -26,7 +26,7 @@ ________________________________________________________________________________
 * **Track**<br/><br/>
   - ![alt text](https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/track.jpg)<br/><br/>
 * **Car**<br/><br/>
-  - ![alt text](https://drive.google.com/file/d/1fxcOYuhOIMRC5PBwyvY92uHKUvO8DaRA/view?usp=drive_link)<br/><br/>
+  - ![alt text](https://github.com/pp-git-hub/AV-Camera-Attack-Project/blob/master/images/car.jpg)<br/><br/>
 * **Attack**<br/><br/>
   - ![alt text](https://drive.google.com/file/d/1TmnlMx7pmqs6UinnmVmjtciMjqCJIoWH/view?usp=drive_link)<br/><br/>
 
