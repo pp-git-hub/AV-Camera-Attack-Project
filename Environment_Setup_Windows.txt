@@ -1,0 +1,33 @@
+## This is all about you run your Program
+
+=================== WINDOWS ==================
+
+1) I have used Python 3.11.9
+
+1) First Create a virtual Environment in Your Windows via CMD
+   . Open CMD (location must be inside your project folder) 
+   . Write following command to create virtual environment : python -m venv enviroment_name
+   . For example : python -m venv myenv
+
+2) Second Activate your newly created Environment
+   . Suppose you created an environment with name "myenv"
+   . Write the following command to activate your environment you created in step 1 : myenv\Scripts\activate
+   . Once You enter the above command you can see (myenv) in the beginning of command line.
+   . No you can install all dependencies and requirements in next step;
+
+3) To install all Dependencies and Requirements , I have created a 'requirements.txt' file in the folder
+   . Write following command : pip install requirements.txt
+   . After sometime all necessary files will be downloaded and installed
+
+4) Now to run your program (READ BELOW)
+  . You need to run this file along with two programs running on Raspberry Pi (mounted on vehicle)
+  . Before running, make sure 'rpi_stream.py' and 'mqtt_speed.py' on raspberry pi
+  . As our main program "RunMe.py" will require a runtime video stream running on a server in a flask app that we created inside   Rpi (So we need to run them)
+  . Ensuring both programs on RPi running.
+  . Run your main Program "RunMe.py" on your windows PC , command : python RunMe.py
+  . Now you can see your program  running showing camera feed from car
+
+
+##################################################### I HAVE TALKED ABOUT SETUP IN RASPBERRY PI IN DETAIL IN FILE 'RPI_SETUP.txt' IN OUR PROJECT FOLDER ###############################################################
+            
+

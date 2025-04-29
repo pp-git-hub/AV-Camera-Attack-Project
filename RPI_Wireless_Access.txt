@@ -1,0 +1,26 @@
+Why using RealVNC ? 
+
+Since my Project involves a car and a track so we can't connect our RPI every time to HDMI to access RPI and do things like coding, debugging and all.
+
+
+So we need to setup a wireless access to our RPI fitted to our vehicle robot.
+
+For that we need to first plugin HDMI our booted rpi 3 so that we can see GUI screen.
+
+. Now open terminal and type command : sudo raspi-config
+. This will open raspi configuration setting page
+. In the setting page , select interface options
+. then select VNC option and enable it
+. And now you are good to go
+. Setup your wifi and connect rpi to a wireless hotspot network
+. Note down your rpi's IP address (use command to see : hostname -I)
+.This IP address will be used to connect from RealVNC in windows
+
+# Now in windows :
+
+.) Download and install RealVNC software for windows from its official website
+.) Open it and search in address bar with this IP (you got from RPI) and hit enter
+.) First time it will ask for login credentials (user name : usually pi and password your pi's password (while you booted your pi first time)
+.) and hit connect
+.) If successful you will see rpi's GUI on the RealVNC viewer
+.) You can operate your RPI from here

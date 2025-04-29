@@ -1,0 +1,62 @@
+##RaspberryPI Setup 
+
+# Details of RPI I used :
+
+🔵 Processor (CPU):
+
+Broadcom BCM2837
+
+64-bit Quad-Core ARM Cortex-A53
+
+Clock speed: 1.2 GHz
+
+🔵 Memory (RAM):
+
+1 GB LPDDR2 (900 MHz)
+
+🔵 Storage:
+
+microSD card (16 GB used)
+
+🔵 Operating System Support:
+
+Raspbian (now called Raspberry Pi OS)
+
+..> (I have used ZEBRONICS USB WEBCAM which supports 30fps)
+
+
+
+# Python Version installed on RPi is 3.11.2
+
+Major Libraries installed : Flask, paho-mqtt, RPi.GPIO, opencv-python
+
+All Requirements are inside "pi_requirements.txt" in the project directory
+
+1) Inside RPi create a folder (in our case its "rpiCamFeed" on Desktop)
+2) Place or create the two files (mqtt_speed.py and rpi_stream.py) inside that folder
+3) Create an Virtual Environment using command : python -m venv env_name
+4) Activate your environment using command : source myenv/bin/activate
+5) Once activated you can see (env_name) at the beginning of the command line
+
+So basically there are two programs we need to run :
+
+we do that it in separate terminals :
+---> open two terminals
+---> activate environments in both
+---> Run one program in one terminal using command : python rpi_stream.py
+---> Run other program in other terminal using command : python mqtt_speed.py
+
+
+ note : AFTER RUNNING THESE TWO PROGRAMS YOU CAN RUN "RunMe.py" in windows PC
+ 
+
+ For all the above steps for RPi : 
+	--> Make sure RealVNC connection is established between your PC and RPI(robot car)
+        --> For detailed information read the "RPI_Wireless_Access.txt" file
+ 
+
+
+
+
+
+
